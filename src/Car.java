@@ -6,10 +6,10 @@ public class Car {
     private Driver driver;
     private Engine engine;
 
-    // Геттеры и сеттеры, если нужно
+
 
     public Car() {
-        this.engine = new Engine(); // Инициализация объекта Engine при создании Car
+        this.engine = new Engine();
     }
 
     public void start() {

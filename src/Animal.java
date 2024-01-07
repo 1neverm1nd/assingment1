@@ -21,7 +21,7 @@ class Animal {
     }
 }
 
-// Dog class extending Animal
+
 class Dog extends Animal {
     String breed;
 
@@ -41,7 +41,6 @@ class Dog extends Animal {
     }
 }
 
-// Cat class extending Animal
 class Cat extends Animal {
     boolean hasFur;
 
@@ -61,7 +60,6 @@ class Cat extends Animal {
     }
 }
 
-// Horse class extending Animal
 class Horse extends Animal {
     String color;
 
@@ -81,7 +79,6 @@ class Horse extends Animal {
     }
 }
 
-// Veterinary class
 class Veterinary {
     public void treatAnimal(Animal animal) {
         System.out.println("food: " + animal.food);

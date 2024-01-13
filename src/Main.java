@@ -2,7 +2,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        // Код создания объектов Phone, Person, Reader, Animal и вызов методов
+
         Phone phone1 = new Phone("123456789", "iPhone 12", 0.5);
         Phone phone2 = new Phone("987654321", "Samsung Galaxy", 0.7);
         Phone phone3 = new Phone("111222333", "Google Pixel", 0.4);
@@ -13,8 +13,8 @@ public class Main {
         System.out.println("Phone 1 number: " + phone1.getNumber());
         phone2.sendMessage(phone1.getNumber(), phone3.getNumber());
 
-        // Person class usage
-        Person person1 = new Person("Alice Smith", 30);
+
+        Person person1 = new Person("Ravil Saidov", 10);
         Person person2 = new Person();
 
         person1.move();

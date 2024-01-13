@@ -12,7 +12,7 @@ public class Phone {
     public Phone(String number, String model) {
         this.number = number;
         this.model = model;
-        this.weight = 0.0;
+        this.weight = weight;
     }
 
     public Phone() {
